@@ -1,0 +1,31 @@
+{
+  "name": "mcp-excalidraw",
+  "version": "1.0.0",
+  "description": "MCP server for Excalidraw schema generation",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "bin": {
+    "mcp-excalidraw": "dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "excalidraw",
+    "schema",
+    "diagram"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  }
+}
